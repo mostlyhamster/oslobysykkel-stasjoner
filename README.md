@@ -10,7 +10,10 @@ Webapp som viser en liste over de ulike bysykkel stasjonene, og hvor mange tilgj
 * A internet browser
 
 ### Installation
-First, clone or download this repository, next open the terminal and `cd` into the location of the downloaded project.  
+First, clone or download this repository, next open the terminal and `cd` into the location of the downloaded project.
+
+    git clone https://github.com/mostlyhamster/oslobysykkel-stasjoner.git
+    cd .\oslobysykkel-stasjoner\
   
 Run `npm install` and wait for npm to install dependencies.
 
