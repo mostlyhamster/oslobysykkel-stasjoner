@@ -1,4 +1,4 @@
-# slobysykkel-stasjoner
+# oslobysykkel-stasjoner
 
 Webapp som viser en liste over de ulike bysykkel stasjonene, og hvor mange tilgjengelige låser og ledige sykler som er på dem i øyeblikket. 
 
