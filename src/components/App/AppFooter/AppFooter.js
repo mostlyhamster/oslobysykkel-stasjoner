@@ -1,9 +1,11 @@
 import React from 'react';
 
+import './AppFooter.css';
+
 const AppFooter = (props) => {
     return (
-        <div>
-            <p>Footer</p>
+        <div className="app__footer">
+            <p>Laget av Roger Wlosek for Oslo Origo</p>
         </div>
     );
 };

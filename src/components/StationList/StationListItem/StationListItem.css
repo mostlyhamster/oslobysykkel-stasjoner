@@ -1,0 +1,40 @@
+.station-list__list-item {
+    background-color: #fff;
+    padding: .25rem 1rem .5rem 1rem;
+    border-left: 1px solid #2a2859;
+    border-right: 1px solid #2a2859;
+    border-top: 1px solid #2a2859;
+    border-bottom: 1px solid #2a2859;
+    margin-bottom: .5rem;
+    transition: .05s ease;
+}
+
+.station-list__list-item:hover {
+    background: #f0effa;
+    transition: .05s ease;
+} 
+
+.station-list__list-item h3 {
+    font-size: 1.5rem;
+    margin: auto;
+}
+
+.station-list__list-item h3 span em {
+    font-size: 1rem;
+    font-weight: lighter;
+    margin: auto;
+}
+
+.station-list__list-item p {
+    margin: auto;
+}
+
+.station-list__text--red {
+    color:#900909;
+}
+.station-list__text--orange {
+    color:orange;
+}
+.station-list__text--green {
+    color:green;
+}

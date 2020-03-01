@@ -1,0 +1,7 @@
+.station-list__list {
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+    max-width: 720px;
+    margin-bottom: 6rem;
+}
