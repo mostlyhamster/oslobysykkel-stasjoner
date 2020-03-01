@@ -3,14 +3,14 @@ import './App.css';
 
 import AppHeader from './AppHeader'
 import AppFooter from './AppFooter'
-import StationsList from '../StationsList';
+import StationList from '../StationList';
 
 function App() {
 
   return (
     <div className="app__container">
         <AppHeader />
-        <StationsList />
+        <StationList />
         <AppFooter />
     </div>
   );

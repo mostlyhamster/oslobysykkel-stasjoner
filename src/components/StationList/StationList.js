@@ -1,12 +1,12 @@
 import React from 'react';
 
-import StatiosListItem from './StationsListItem';
+import StationListItem from './StationListItem';
 
 const StationsList = (props) => {
     return (
         <ul aria-label="Liste over Oslo bysykkel stasjoner">
-            <StatiosListItem ></StatiosListItem>
-            <StatiosListItem ></StatiosListItem>
+            <StationListItem ></StationListItem>
+            <StationListItem ></StationListItem>
         </ul>
     );
 };
