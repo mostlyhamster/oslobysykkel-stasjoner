@@ -29,6 +29,8 @@ const StationsList = (props) => {
     const findStationStatusByStationId = (stationId) => {
         return stationStatuses.data.stations.find(station => station.station_id === stationId)
     }
+
+    stationInformation.data.stations.sort((a, b) => a.name > b.name)
       
     return (
         <>
