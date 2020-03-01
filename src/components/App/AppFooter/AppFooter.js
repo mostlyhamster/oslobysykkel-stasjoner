@@ -10,8 +10,6 @@ const AppFooter = (props) => {
     return (
         <div className="app__footer">
             <p><button onClick={backToTop} className="app-footer__button--normal">Tilbake til toppen</button></p>
-            <br></br>
-            <p>Laget av Roger Wlosek for Oslo Origo </p>
         </div>
     );
 };
