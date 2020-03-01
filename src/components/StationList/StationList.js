@@ -7,15 +7,7 @@ import StationListItem from './StationListItem';
 import { useDataApi } from '../../hooks/useDataApi';
 
 const StationsList = (props) => {
-    /*React.useEffect(() => {
-        fetch("https://gbfs.urbansharing.com/oslobysykkel.no/station_information.json")
-        .then(response => {
-            console.log(response)
-            return response.json()
-        }).then(data => {
-            console.log(data)
-        })
-    },[])*/
+
     const [stationInformation] = useDataApi(
         'https://gbfs.urbansharing.com/oslobysykkel.no/station_information.json',
         { stations: [] },
