@@ -1,7 +1,7 @@
 .app__footer {
     color:white;
     background-color: #2a2859;
-    padding: 2rem;
+    padding: 1rem;
     bottom: 0;
     position: fixed;
     width: 100%;
@@ -9,4 +9,13 @@
 .app__footer p{
     text-align: center;
     margin: auto;
+}
+
+.app-footer__button--normal {
+    background-color: #2a2859;
+    color:white;
+    padding: 1rem;
+    letter-spacing: 0.1rem;
+    font-size: 1rem;
+    border: 2px solid white;
 }
